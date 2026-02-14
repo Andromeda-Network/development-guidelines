@@ -1,5 +1,5 @@
-# EMS Development Guidelines
-Welcome — this is the entry point for new developers joining the EMS projects. These documents define our standard practices for collaboration, git usage, PRs, and releases.
+# Andromeda Network Development Guidelines
+Welcome — this is the entry point for new developers joining the Andromeda Network. These documents define our standard practices for collaboration, git usage, PRs, and releases.
 
 ## Quick start
 - Read the Git Usage guidelines: [Git Usage](general/git/git-usage.md)
