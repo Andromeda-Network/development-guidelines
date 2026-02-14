@@ -17,8 +17,9 @@ We follow a concise, conventional style for commit messages. This improves reada
 ### Structure
 
 1. Subject line (brief summary)
-   - Format: `[type] (scope): brief summary`
+   - Format: `[type] (scope, #ISSUE): brief summary`
    - **[type] is mandatory.** Always specify the type.
+   - **[#ISSUE] is mandatory.** Always include the related issue number.
    - (scope) is optional but recommended to indicate the area of the code affected (e.g., auth, api, ui, docs).
    - Always keep it <= 50 characters.
    - Use the imperative mood: "Add", "Fix", "Update", not "Added" or "Fixes".
