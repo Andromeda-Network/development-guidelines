@@ -46,7 +46,7 @@ Use one of the following types for every commit:
 
 ### Examples
 ```
-[feat] (payments): add retry logic for failed transactions
+[feat] (payments, #110): add retry logic for failed transactions
 
 Add exponential backoff and max retries for transient errors.
 
@@ -54,7 +54,7 @@ Refs: PROJ-789
 ```
 
 ```
-[fix] (profile): validate user input on profile update
+[fix] (profile, #120): validate user input on profile update
 
 Prevents 500 responses when request body is missing required fields.
 ```
@@ -68,11 +68,11 @@ Prevents 500 responses when request body is missing required fields.
 
 - Use `-m` for commit messages:
   ```bash
-  git commit -m "[type] (scope): brief summary"
+  git commit -m "[type] (scope, #100): brief summary"
   ```
 - Use multiple `-m` flags for body and footer:
   ```bash
-  git commit -m "[type] (scope): brief summary" -m "Detailed explanation of what and why." -m "Refs: PROJ-123"
+  git commit -m "[type] (scope, #90): brief summary" -m "Detailed explanation of what and why." -m "Refs: PROJ-123"
   ```
 
 **Keep commit messages clear, consistent, and focused. They are the primary history of why changes were made.**
