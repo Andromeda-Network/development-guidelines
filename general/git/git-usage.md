@@ -68,11 +68,11 @@ Prevents 500 responses when request body is missing required fields.
 
 - Use `-m` for commit messages:
   ```bash
-  git commit -m "[type] (scope, #100): brief summary"
+  git commit -m "[type] (scope, #ISSUE): brief summary"
   ```
 - Use multiple `-m` flags for body and footer:
   ```bash
-  git commit -m "[type] (scope, #90): brief summary" -m "Detailed explanation of what and why." -m "Refs: PROJ-123"
+  git commit -m "[type] (scope, , #ISSUE): brief summary" -m "Detailed explanation of what and why." -m "Refs: PROJ-123"
   ```
 
 **Keep commit messages clear, consistent, and focused. They are the primary history of why changes were made.**
